@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "oxo",
+    "ojo",
+    "oxo"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "examplemod:poop"
+    },
+    "o":
+    {
+      "item": "minecraft:obsidian"
+    }
+    ,
+    "j":
+    {
+      "item": "minecraft:water_bucket"
+    }
+
+  },
+  "result":
+  {
+    "item": "examplemod:poop_block",
+    "count": 5
+  }
+}

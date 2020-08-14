@@ -1,0 +1,9 @@
+{
+  "item.examplemod.ruby": "Ruby",
+  "item.examplemod.poop": "Poop",
+  "item.examplemod.dirt_food": "Dirt Food",
+  "item.examplemod.food_totem": "Food Totem",
+  "block.examplemod.ruby_block": "Ruby Block",
+  "block.examplemod.poop_block": "Poop Block",
+  "itemGroup.TutorialTab": "Tutorial"
+}

@@ -1,0 +1,39 @@
+package com.example.examplemod.util;
+import com.example.examplemod.ExampleMod;
+import com.example.examplemod.items.PoopItem;
+
+import net.minecraft.item.Item;
+import net.minecraft.block.Block;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import com.example.examplemod.items.ItemBase;
+import com.example.examplemod.blocks.RubyBlock;
+import com.example.examplemod.blocks.PoopBlock;
+import com.example.examplemod.blocks.BlockItemBase;
+import com.example.examplemod.items.DirtFood;
+public class RegistryHandler{
+
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, ExampleMod.MOD_ID);
+
+    public static void init() {
+        ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+    }
+    // Items
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Item> POOP = ITEMS.register("poop", PoopItem::new);
+    public static final RegistryObject<Item> FOOD_TOTEM = ITEMS.register("food_totem", ItemBase::new);
+    public static final RegistryObject<DirtFood> DIRT_FOOD = ITEMS.register("dirt_food", DirtFood::new);
+
+    // Blocks
+    public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block> POOP_BLOCK = BLOCKS.register("poop_block", PoopBlock::new);
+
+    // Block Items
+    public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
+    public static final RegistryObject<Item> POOP_BLOCK_ITEM = ITEMS.register("poop_block", () -> new BlockItemBase(POOP_BLOCK.get()));
+
+}

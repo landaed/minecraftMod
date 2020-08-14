@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xzx",
+    "xxx"
+  ],
+  "key":
+  {
+    "z":
+    {
+      "item": "examplemod:food_totem"
+    },
+    "x":
+    {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result":
+  {
+    "item": "examplemod:dirt_food",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xzx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "examplemod:ruby"
+    },
+    "z":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result":
+  {
+    "item": "examplemod:ruby_block",
+    "count": 1
+  }
+}
