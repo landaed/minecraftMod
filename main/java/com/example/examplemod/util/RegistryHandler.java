@@ -1,5 +1,6 @@
 package com.example.examplemod.util;
 import com.example.examplemod.ExampleMod;
+import com.example.examplemod.items.FoodTotem;
 import com.example.examplemod.items.PoopItem;
 
 import net.minecraft.item.Item;
@@ -25,8 +26,9 @@ public class RegistryHandler{
     // Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
     public static final RegistryObject<Item> POOP = ITEMS.register("poop", PoopItem::new);
-    public static final RegistryObject<Item> FOOD_TOTEM = ITEMS.register("food_totem", ItemBase::new);
+    public static final RegistryObject<FoodTotem> FOOD_TOTEM = ITEMS.register("food_totem", FoodTotem::new);
     public static final RegistryObject<DirtFood> DIRT_FOOD = ITEMS.register("dirt_food", DirtFood::new);
+    //public static final RegistryObject<BedrockFood> BEDROCK_FOOD = ITEMS.register("bedrock_food", BedrockFood::new);
 
     // Blocks
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);

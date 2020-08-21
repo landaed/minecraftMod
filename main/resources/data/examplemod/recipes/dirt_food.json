@@ -1,22 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":
-  [
-    "xxx",
-    "xzx",
-    "xxx"
-  ],
-  "key":
-  {
-    "z":
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
     {
       "item": "examplemod:food_totem"
     },
-    "x":
     {
       "item": "minecraft:dirt"
     }
-  },
+  ],
   "result":
   {
     "item": "examplemod:dirt_food",
