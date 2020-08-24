@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:food_totem"
+    },
+    {
+      "item": "minecraft:gold"
+    }
+  ],
+  "result":
+  {
+    "item": "examplemod:gold_food",
+    "count": 1
+  }
+}

@@ -15,6 +15,11 @@ import com.example.examplemod.blocks.PoopBlock;
 import com.example.examplemod.blocks.BlockItemBase;
 import com.example.examplemod.items.DirtFood;
 import com.example.examplemod.items.DiamondFood;
+import com.example.examplemod.items.IronFood;
+import com.example.examplemod.items.GoldFood;
+import com.example.examplemod.items.RedstoneFood;
+import com.example.examplemod.items.EmeraldFood;
+
 public class RegistryHandler{
 
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
@@ -30,6 +35,10 @@ public class RegistryHandler{
     public static final RegistryObject<FoodTotem> FOOD_TOTEM = ITEMS.register("food_totem", FoodTotem::new);
     public static final RegistryObject<DirtFood> DIRT_FOOD = ITEMS.register("dirt_food", DirtFood::new);
     public static final RegistryObject<DiamondFood> DIAMOND_FOOD = ITEMS.register("diamond_food", DiamondFood::new);
+     public static final RegistryObject<IronFood> IRON_FOOD = ITEMS.register("iron_food", IronFood::new);
+     public static final RegistryObject<GoldFood> GOLD_FOOD = ITEMS.register("gold_food", GoldFood::new);
+     public static final RegistryObject<RedstoneFood> REDSTONE_FOOD = ITEMS.register("redstone_food", RedstoneFood::new);
+     public static final RegistryObject<EmeraldFood> EMERALD_FOOD = ITEMS.register("emerald_food",EmeraldFood::new);
     //public static final RegistryObject<BedrockFood> BEDROCK_FOOD = ITEMS.register("bedrock_food", BedrockFood::new);
 
     // Blocks

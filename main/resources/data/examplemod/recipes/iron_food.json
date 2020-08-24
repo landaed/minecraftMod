@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:food_totem"
+    },
+    {
+      "item": "minecraft:iron"
+    }
+  ],
+  "result":
+  {
+    "item": "examplemod:Iron_Food",
+    "count": 1
+  }
+}
