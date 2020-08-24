@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:food_totem"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    }
+  ],
+  "result":
+  {
+    "item": "examplemod:diamond_food",
+    "count": 1
+  }
+}

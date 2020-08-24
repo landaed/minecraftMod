@@ -6,13 +6,13 @@ import net.minecraft.item.ItemStack;
 
 public class FoodTotem extends Item {
     public FoodTotem() {
-        super(new Item.Properties().group(ExampleMod.TAB).defaultMaxDamage(40).maxStackSize(1));
+        super(new Item.Properties().group(ExampleMod.TAB).maxStackSize(1));
     }
 
     @Override
     public ItemStack getContainerItem(ItemStack itemStack) {
         ItemStack stack = itemStack.copy();
-        stack.setDamage(stack.getDamage()-10);
+     //   stack.setDamage(stack.getDamage()-10);
         return stack;
     }
 
