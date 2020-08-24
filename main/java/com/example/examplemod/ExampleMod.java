@@ -20,7 +20,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
-
+//test
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("examplemod")
 public class ExampleMod
