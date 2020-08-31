@@ -14,7 +14,7 @@ public class EmeraldFood extends Item {
                     .hunger(4)
                     .saturation(1.2f)
                     .effect(new EffectInstance(Effects.HERO_OF_THE_VILLAGE,300,1),1)
-                    .effect(new EffectInstance(Effects.ABSORPTON,10000000,9),1)
+                    .effect(new EffectInstance(Effects.ABSORPTION,10000000,9),1)
                     .build()
             )
         );

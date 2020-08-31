@@ -5,12 +5,12 @@
       "item": "examplemod:food_totem"
     },
     {
-      "item": "minecraft:iron"
+      "item": "minecraft:iron_ingot"
     }
   ],
   "result":
   {
-    "item": "examplemod:Iron_Food",
+    "item": "examplemod:iron_food",
     "count": 1
   }
 }
