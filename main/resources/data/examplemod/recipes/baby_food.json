@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:food_totem"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result":
+  {
+    "item": "examplemod:baby_food",
+    "count": 1
+  }
+}

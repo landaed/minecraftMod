@@ -15,6 +15,7 @@ import com.example.examplemod.blocks.PoopBlock;
 import com.example.examplemod.blocks.BlockItemBase;
 import com.example.examplemod.items.DirtFood;
 import com.example.examplemod.items.DiamondFood;
+import com.example.examplemod.items.BabyFood;
 import com.example.examplemod.items.IronFood;
 import com.example.examplemod.items.GoldFood;
 import com.example.examplemod.items.RedstoneFood;
@@ -39,6 +40,8 @@ public class RegistryHandler{
      public static final RegistryObject<GoldFood> GOLD_FOOD = ITEMS.register("gold_food", GoldFood::new);
      public static final RegistryObject<RedstoneFood> REDSTONE_FOOD = ITEMS.register("redstone_food", RedstoneFood::new);
      public static final RegistryObject<EmeraldFood> EMERALD_FOOD = ITEMS.register("emerald_food",EmeraldFood::new);
+     public static final RegistryObject<BabyFood> BABY_FOOD = ITEMS.register("baby_food"",BabyFood::new);
+    
     //public static final RegistryObject<BedrockFood> BEDROCK_FOOD = ITEMS.register("bedrock_food", BedrockFood::new);
 
     // Blocks
